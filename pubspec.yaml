@@ -1,0 +1,9 @@
+name: roman_numeral_builder
+description: Code built for freeCodeCamp's roman numeral builder daily coding challenge of December 11, 2025.
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.3
+
+dev_dependencies:
+  test: ^1.25.6
