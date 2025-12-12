@@ -18,7 +18,6 @@ void main() {
     expect(toRoman(1066), 'MLXVI');
     expect(toRoman(3999), 'MMMCMXCIX');
     expect(() => toRoman(4000), throwsArgumentError);
-    expect(() => toRoman(4000), throwsArgumentError);
     expect(() => toRoman(99999), throwsArgumentError);
     expect(() => toRoman('abc'), throwsFormatException);
     expect(() => toRoman(2499.40), throwsFormatException);

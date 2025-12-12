@@ -35,8 +35,11 @@ jobs:
       - name: Analyze project source
         run: dart analyze
 
+      - name: Get project current folder and contents
+        run: pwd && ls
+
       # Your project will need to have tests in test/ and a dependency on
       # package:test for this step to succeed. Note that Flutter projects will
       # want to change this to 'flutter test'.
       - name: Run tests
-        run: dart test .\test\to_roman.test.dart
+        run: dart test
